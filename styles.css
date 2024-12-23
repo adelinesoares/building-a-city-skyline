@@ -230,10 +230,10 @@ body {
     left: 10%;
 }
 
-.fb4a{
+.fb4a {
     border-top: 5vh solid transparent;
     border-left: 8vw solid var(--building-color1);
-  }
+}
 
 .fb4b {
     width: 100%;
@@ -242,13 +242,14 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-.fb4-window{
+
+.fb4-window {
     width: 30%;
     height: 10%;
     border-radius: 50%;
     margin: 10%;
     background-color: var(--window-color1);
-  }
+}
 
 .fb5 {
     width: 10%;
@@ -257,11 +258,17 @@ body {
     position: relative;
     right: 10%;
     background: repeating-linear-gradient(
-      var(--building-color2),
-      var(--building-color2) 5%,
-      transparent 5%,
-      transparent 10%
-    );
+        var(--building-color2),
+        var(--building-color2) 5%,
+        transparent 5%,
+        transparent 10%
+    ),
+    repeating-linear-gradient(
+        90deg,
+        var(--building-color2),
+        var(--building-color2) 12%,
+        var(--window-color2) 12%,
+        var(--window-color2) 44%);
 }
 
 .fb6 {
